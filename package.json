@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "commit": "git-cz",
-    "postinstall": "npx jetify && patch-package && npx husky install",
     "start": "next start",
     "dev": "npx solidarity && dotenv -e .env.development.local next dev",
     "build": "npx solidarity && dotenv -e .env.production.local next build",
@@ -90,7 +88,6 @@
     "eslint-plugin-prettier": "^5.1.2",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "husky": "^8.0.3",
     "hygen": "^6.2.11",
     "jest": "^29.7.0",
     "jest-canvas-mock": "^2.5.1",

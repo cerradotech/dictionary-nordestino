@@ -29,9 +29,8 @@ const isError = ifStyle('$error');
 const isDisabled = ifStyle('$disabled');
 
 export const Wrapper = styled.div`
-  flex: 1;
   flex-direction: column;
-  min-width: ${pxToRem(250)};
+  min-width: ${pxToRem(100)};
   gap: ${spacingSm}px;
 `;
 
