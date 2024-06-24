@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": ""
+  },
+  "targets": {
+    "": {
+      "hosting": {
+        "dev": [
+          ""
+        ],
+        "prod": [
+          ""
+        ]
+      }
+    }
+  }
+}
