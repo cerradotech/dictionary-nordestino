@@ -24,7 +24,7 @@
     "date-fns": "^2.30.0",
     "dotenv": "^16.1.4",
     "dotenv-cli": "^7.2.1",
-    "firebase": "^10.6.0",
+    "firebase": "^10.13.1",
     "formik": "^2.4.5",
     "i18next": "^23.7.11",
     "i18next-browser-languagedetector": "^7.2.0",
